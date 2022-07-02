@@ -1,10 +1,7 @@
-import { useState } from 'react';
 import { Container } from './styles';
 
 export const Navbar = () => {
   
-  const [open, setOpen] = useState(false);
-
   return (
     <Container>
       <div className='wrapper'>
@@ -25,7 +22,7 @@ export const Navbar = () => {
           <a href='#'
             onClick={() => window.scrollTo(0, 0)}>INÍCIO</a>
           <a href='#sobre'>SOBRE</a>
-          <a href='#skills'>SKILLS</a>
+          <a href='#skills'>HABILIDADES</a>
           <a href='#projetos'>PROJETOS</a>
           <a href='#contato'>CONTATO</a>
         </div>
