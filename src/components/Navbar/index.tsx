@@ -1,17 +1,14 @@
 import { Container } from './styles';
 
 export const Navbar = () => {
-  
+
   return (
     <Container>
       <div className='wrapper'>
         <button onClick={() => window.scrollTo(0, 0)}>
           <a href="#">
-            <img
-              src={'/svgs/logo-small.svg'}
-              alt='Logotipo com as letras AC Dev'
-              className='logo'
-            />
+            <span>Escultor</span><br/>
+            <span>Digital</span>
           </a>
         </button>
         <div>
@@ -26,7 +23,7 @@ export const Navbar = () => {
           <a href='#projetos'>PROJETOS</a>
           <a href='#contato'>CONTATO</a>
         </div>
-      </div> 
+      </div>
     </Container>
   );
 };

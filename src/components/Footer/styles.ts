@@ -8,7 +8,7 @@ export const Container = styled.footer`
   align-items: center;
   justify-content: space-evenly;
   font-size: 2.5rem;
-  background-image: linear-gradient(-125deg, ${props => props.theme.colors.secondary}, ${props => props.theme.colors.primary});
+  background-image: linear-gradient(-125deg, ${props => props.theme.colors.brown200}, ${props => props.theme.colors.brown850});
   
   button {
     background: none;

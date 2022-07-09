@@ -1,16 +1,15 @@
 import Head from 'next/head';
 import type { NextPage } from 'next';
 import { Container } from '../styles/pages/Home';
-import { Navbar, Header, Main, Footer } from '@components/index';
+import { Header, Main, Footer } from '@components/index';
 
 const Home: NextPage = () => {
 
   return (
     <Container>
       <Head>
-        <title>David Edson | JS Dev</title>
-      </Head>
-      <Navbar />
+        <title>Escultor Digital | JS Dev</title>
+      </Head>      
       <Header />
       <Main />
       <Footer />

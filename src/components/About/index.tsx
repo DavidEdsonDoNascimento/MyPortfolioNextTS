@@ -9,11 +9,11 @@ export const About = () => {
       <div className='wrapper'>
         <div className='bg-perfil'>
           <Image
-            src={'/imgs/eu.jpg'}
+            src={'/imgs/eu-e-a-mona-chopera.jpeg'}
             alt='Logotipo com as letras Dev'
             className='perfil'
-            width={3000}
-            height={3000}
+            width={720}
+            height={719}
           />
         </div>
         <div className='content'>

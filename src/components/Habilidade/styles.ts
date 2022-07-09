@@ -5,7 +5,7 @@ export const Container = styled.div`
   min-height: 740px;
   display: flex;
   justify-content: center;
-  background-color: ${props => props.theme.colors.backgroundSecondary};
+  background-color: ${props => props.theme.colors.white900};
   @media screen and (max-width: 700px) {
     padding: 100px 0;
   }
@@ -24,7 +24,7 @@ export const Container = styled.div`
         font-size: 2.5rem;
         margin-bottom: 30px;
         svg {
-          color: ${props => props.theme.colors.secondary};
+          color: ${props => props.theme.colors.salmon300};
         }
       }
       p {
@@ -52,7 +52,7 @@ export const Container = styled.div`
         padding: 5px;
         width: 140px;
         height: auto;
-        color: ${props => props.theme.colors.secondary};
+        color: ${props => props.theme.colors.salmon300};
         transition: ease-in-out all 0.5s;
         :hover {
           width: 150px;

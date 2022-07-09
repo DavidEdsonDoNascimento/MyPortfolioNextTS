@@ -8,7 +8,7 @@ export const Container = styled.nav`
   justify-content: center;
   position: fixed;
   z-index: 999;
-  background-color: ${props => props.theme.colors.navbar};
+  background-color: ${props => props.theme.colors.brown850};
   backdrop-filter: blur(5px);
   .wrapper {
     max-width: 1200px;
@@ -20,6 +20,10 @@ export const Container = styled.nav`
     @media screen and (max-width: 1215px) {
       width: 100%;
       padding: 0 15px;
+    }
+    span {
+      font-size: 2rem;
+      font-weight: bold;
     }
     button {
       background: none;
@@ -50,7 +54,7 @@ export const Container = styled.nav`
         cursor: pointer;
         transition: all ease-in-out 0.3s;
         :hover {
-          filter: drop-shadow(0 0 3px ${props => props.theme.colors.secondary});
+          filter: drop-shadow(0 0 3px ${props => props.theme.colors.salmon300});
         }
       }
     }

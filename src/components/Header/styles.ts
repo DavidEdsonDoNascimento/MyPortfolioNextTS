@@ -39,7 +39,7 @@ export const Container = styled.header`
         font-weight: 500;
         b {
           font-weight: 700;
-          background: -webkit-linear-gradient(-70deg, ${(props) => props.theme.colors.primary}, ${(props) => props.theme.colors.secondary});
+          background: -webkit-linear-gradient(-70deg, ${(props) => props.theme.colors.brown200}, ${(props) => props.theme.colors.brown850});
           filter: drop-shadow(0 0 5px black) brightness(135%);
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
@@ -62,7 +62,7 @@ export const Container = styled.header`
           b {
             font-size: 1.8rem;
             font-weight: 700;
-            background: -webkit-linear-gradient(-70deg, ${(props) => props.theme.colors.primary}, ${(props) => props.theme.colors.secondary});
+            background: -webkit-linear-gradient(-70deg, ${(props) => props.theme.colors.primary}, ${(props) => props.theme.colors.salmon300});
             filter: drop-shadow(0 0 5px black) brightness(135%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;

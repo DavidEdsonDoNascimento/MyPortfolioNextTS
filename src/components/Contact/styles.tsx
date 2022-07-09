@@ -6,7 +6,8 @@ export const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: ${props => props.theme.colors.backgroundSecondary};
+  background-color: ${props => props.theme.colors.blue700};
+  color: ${props => props.theme.colors.white900};
   @media screen and (max-width: 426px) {
     padding: 100px 0;
   }
@@ -25,7 +26,7 @@ export const Container = styled.div`
       font-size: 2.5rem;
       margin-bottom: 30px;
       svg {
-        color: ${props => props.theme.colors.secondary};
+        color: ${props => props.theme.colors.salmon300};
       }
     }
     p {
@@ -44,7 +45,7 @@ export const Container = styled.div`
       margin-top: 30px;
       svg {
         font-size: 5rem;
-        color:  ${props => props.theme.colors.secondary};
+        color:  ${props => props.theme.colors.salmon300};
       }
       .first-group {
         display: flex;

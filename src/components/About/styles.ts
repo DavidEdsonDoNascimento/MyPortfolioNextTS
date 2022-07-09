@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { theme } from '../../theme';
 
 export const Container = styled.div`
   width: 100%;
@@ -6,6 +7,8 @@ export const Container = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background-color: ${theme.colors.blue700};
+  color: ${theme.colors.white900};
   @media screen and (max-width: 750px) {
     padding: 100px 0;
   }
@@ -15,15 +18,15 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;
     .bg-perfil {
-      width: 38%;
-      padding: 10px;
-      border-radius: 50%;
-      background-color: ${props => props.theme.colors.text};
-      background-image: linear-gradient(45deg, ${props => props.theme.colors.secondary}, ${props => props.theme.colors.primary});
+      width: 40%;
+      padding: 0 0.5px;
+      border-radius: 2%;
+      background-color: ${props => props.theme.colors.blue700};
+      background-image: linear-gradient(45deg, ${props => props.theme.colors.salmon300}, ${props => props.theme.colors.salmon300});
       transition: all 0.5s ease-in-out;
       
       .perfil {
-        border-radius: 50%;
+        border-radius: 2%;
       }
       
       :hover {
@@ -41,7 +44,7 @@ export const Container = styled.div`
         font-size: 2.5rem;
         margin-bottom: 30px;
         svg {
-          color: ${props => props.theme.colors.secondary};
+          color: ${props => props.theme.colors.salmon300};
         }
       }
     
