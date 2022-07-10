@@ -1,7 +1,25 @@
+import { NextPage } from 'next';
 import Image from 'next/image';
-import { Container } from './styles';
+import styled from 'styled-components';
 
-const friends = () => {
+const Container = styled.div`
+  width: 100%;
+  min-height: 740px;
+  display: flex;
+  justify-content: center;
+  background-color: ${props => props.theme.colors.white900};
+  @media screen and (max-width: 700px) {
+    padding: 100px 0;
+  }
+  .wrapper {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+`;
+
+const friends: NextPage = () => {
   return (
     <Container id='skills'>
       <div className='wrapper'>
