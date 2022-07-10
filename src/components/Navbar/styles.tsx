@@ -21,24 +21,7 @@ export const Container = styled.nav`
       width: 100%;
       padding: 0 15px;
     }
-    span {
-      font-size: 2rem;
-      font-weight: bold;
-    }
-    button {
-      background: none;
-      border: none;
-      cursor: pointer;
-      .logo {
-        width: 180px;
-        filter: drop-shadow(0 0 8px black) brightness(100%);
-        transition: ease-in-out all 0.5s;
-        :hover {
-          width: 185px;
-          filter: drop-shadow(0 0 16px black) brightness(140%);
-        }
-      }
-    }
+    
     .menu {
       display: flex;
       a {
