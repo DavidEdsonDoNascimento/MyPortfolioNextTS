@@ -2,13 +2,12 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 
 type Data = {
-  name: string;
-  qtMarmitas: number;
+  isAlive: boolean;
 }
 
 export default function handler(
   req: NextApiRequest,
   res: NextApiResponse<Data>
 ) {
-  res.status(200).json({ name: 'David Edson', qtMarmitas: 26 });
+  res.status(200).json({ isAlive: true });
 }
