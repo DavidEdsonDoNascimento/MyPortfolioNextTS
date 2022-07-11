@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import type { NextPage } from 'next';
 import { Container } from '../styles/pages/Home';
-import { Header, Main, Footer } from '@components/index';
+import { Header, Main, Footer, Navbar } from '@components/index';
 
 const Home: NextPage = () => {
 
@@ -9,7 +9,8 @@ const Home: NextPage = () => {
     <Container>
       <Head>
         <title>Escultor Digital | JS Dev</title>
-      </Head>      
+      </Head>     
+      <Navbar /> 
       <Header />
       <Main />
       <Footer />
