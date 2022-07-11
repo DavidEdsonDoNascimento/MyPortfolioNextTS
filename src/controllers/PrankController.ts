@@ -1,6 +1,6 @@
 export class PrankController {
   static count = 0;
-  static MAX_ATTEMPTS = 10;
+  static MAX_ATTEMPTS = 30;
   static STATUS = {
     STOP: false
   };
