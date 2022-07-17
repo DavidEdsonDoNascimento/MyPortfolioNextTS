@@ -14,7 +14,7 @@ export const Contact = () => {
     <Container id='contato'>
       <div className='wrapper'>
         <h2><RiWechatFill />Contato</h2>
-        <p>Caso queira entrar em contato comigo,<br /> pode me chamar por onde preferir.</p>
+        <p>Precisa de um desenvolvedor?<br/>Vamos trabalhar juntos.<br/>Entre em contato:</p>
         <div className='links'>
           <div className='first-group'>
             <a href="https://wa.me/5547997011323?text=Olá%20David%20Gostaria%20de%20trocar%20uma%20ideia%20contigo!"

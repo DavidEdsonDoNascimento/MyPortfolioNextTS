@@ -72,7 +72,7 @@ export const Container = styled.div`
             filter: drop-shadow(0 0 10px black) brightness(130%);
           }
         }
-        
+
         @media screen and (max-width: 321px) {
           width: 70px;
           :hover {
@@ -84,7 +84,7 @@ export const Container = styled.div`
       @media screen and (max-width: 750px) {
         width: 100%;
       }
-      
+
       @media screen and (max-width: 700px) {
         max-width: 375px;
       }

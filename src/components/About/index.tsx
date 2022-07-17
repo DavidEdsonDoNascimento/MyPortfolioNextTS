@@ -7,15 +7,6 @@ export const About = () => {
   return (
     <Container id='sobre'>
       <div className='wrapper'>
-        <div className='bg-perfil'>
-          <Image
-            src={'/imgs/eu-e-a-mona-chopera.jpeg'}
-            alt='Logotipo com as letras Dev'
-            className='perfil'
-            width={720}
-            height={719}
-          />
-        </div>
         <div className='content'>
           <h2>Sobre</h2>
           <p>{Content.about()}</p>
@@ -23,6 +14,15 @@ export const About = () => {
             <a href={SocialNetworks.linkedin.link} className='button-link'>LinkedIn</a>
             <a href={SocialNetworks.github.link} className='button-link'>Github</a>
           </div>
+        </div>
+        <div className='bg-perfil'>
+          <Image
+            src={'/imgs/eu-e-a-mona-chopera.jpeg'}
+            alt='Logotipo com as letras Dev'
+            className='img-about'
+            width={720}
+            height={719}
+          />
         </div>
       </div>
     </Container>

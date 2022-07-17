@@ -1,22 +1,17 @@
 import { useState } from 'react';
 import { SocialNetworks } from '@utils/SocialNetworks';
 import { Container } from './styles';
+import { Logo } from '@components/Logo';
 
 export const Footer = () => {
 
   const currentDate = new Date();
   const [year] = useState<number>(currentDate.getFullYear());
-  
+
   return (
     <Container>
       <button onClick={() => window.scrollTo(0, 0)}>
-        <a href="#">
-          <img
-            src={'./imagem.png'}
-            alt='Logotipo com as letras Dev'
-            className='logo'
-          />
-        </a>
+        <Logo />
       </button>
       <div className='wrapper'>
         <span>Copyright © {year}</span>

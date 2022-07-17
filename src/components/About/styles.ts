@@ -19,16 +19,15 @@ export const Container = styled.div`
     align-items: center;
     .bg-perfil {
       width: 40%;
-      padding: 0 0.5px;
-      border-radius: 2%;
+      padding: 10px;
+      border-radius: 50%;
       background-color: ${props => props.theme.colors.blue700};
-      background-image: linear-gradient(45deg, ${props => props.theme.colors.salmon300}, ${props => props.theme.colors.salmon300});
       transition: all 0.5s ease-in-out;
-      
-      .perfil {
-        border-radius: 2%;
+
+      .img-about {
+        border-radius: 50%;
       }
-      
+
       :hover {
         width: 40%;
         filter: grayscale(30%) drop-shadow(0 0 10px black);
@@ -47,14 +46,14 @@ export const Container = styled.div`
           color: ${props => props.theme.colors.salmon300};
         }
       }
-    
+
       p {
         width: 100%;
         font-size: 1.1rem;
         text-align: justify;
         padding: 0 15px;
       }
-    
+
       .buttons {
         display: flex;
         justify-content: space-between;

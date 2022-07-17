@@ -3,8 +3,13 @@ import { Container } from './styles';
 export const Logo = () => {
   return (
     <Container>
-      <a href="#">
-        Escultor Digital | JS Dev
+      <a className="logo" href="#">
+        <div className="c-logo-ed">
+          Escultor Digital
+        </div>
+        <div className="c-logo-js">
+          JS Dev
+        </div>
       </a>
     </Container>
   );

@@ -8,6 +8,11 @@ const friends: NextPage = () => {
 
   const [isGeneratingIimage, setIsGeneratingIimage] = useState<boolean>(false);
   const [imageDom, setImageDOM] = useState<any>(null);
+  const DIMENSIONS = {
+    HEIGHT: typeof window !== 'undefined' ? window.screen.height : 400,
+    WIDTH: typeof window !== 'undefined' ? window.screen.width : 300,
+    IMAGE: 150
+  };
 
   const PATHS = {
     PRANKS: '/imgs/pranks'
@@ -88,8 +93,8 @@ const friends: NextPage = () => {
   // esse x e y deve ser via media query
   const randomPosition = () => {
     return {
-      x: Math.floor(Math.random() * 450),
-      y: Math.floor(Math.random() * 300)
+      x: Math.floor(Math.random() * (DIMENSIONS.HEIGHT - DIMENSIONS.IMAGE)),
+      y: Math.floor(Math.random() * (DIMENSIONS.WIDTH - DIMENSIONS.IMAGE))
     };
   };
 
@@ -103,8 +108,8 @@ const friends: NextPage = () => {
         id='${PrankController.count}'
         class='image-prank'
         src='${images[Math.floor(Math.random() * (images.length - 1))]}'
-        width='70vw'
-        height='70vh'
+        width='${DIMENSIONS.IMAGE}px'
+        height='${DIMENSIONS.IMAGE}px'
         style='top: ${x}px; left: ${y}px; position: absolute; border-radius: 25%;'
         onClick='() => {
           const image = document.getElementById(${PrankController.count.toString()});

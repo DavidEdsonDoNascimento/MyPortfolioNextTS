@@ -13,12 +13,10 @@ import {
   SiRedux } from 'react-icons/si';
 import { IoDocumentTextSharp } from 'react-icons/io5';
 import { FaLaptopCode, FaNode } from 'react-icons/fa';
-
 import { Tooltip } from 'src/shared/Tooltip';
-    
 import { Container } from './styles';
 import { Content } from '@utils/Contents';
-    
+
 export const Habilidade = () => {
   return (
     <Container id='skills'>

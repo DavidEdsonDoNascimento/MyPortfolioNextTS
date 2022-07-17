@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   a {
+    font-size: 1.5rem;
     background: none;
     border: none;
     cursor: pointer;
@@ -13,6 +14,9 @@ export const Container = styled.div`
         width: 185px;
         filter: drop-shadow(0 0 16px black) brightness(140%);
       }
+      .c-logo-js {
+        font-size: 1rem;
+      }
     }
-  } 
+  }
 `;

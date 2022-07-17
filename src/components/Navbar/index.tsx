@@ -1,4 +1,4 @@
-// import { Logo } from '@components/Logo';
+import { Logo } from '@components/Logo';
 import { Container } from './styles';
 
 export const Navbar = () => {
@@ -7,10 +7,7 @@ export const Navbar = () => {
     <Container>
       <div className='wrapper'>
         <button onClick={() => window.scrollTo(0, 0)}>
-          <a href="#">
-            <span>Escultor</span><br />
-            <span>Digital</span>
-          </a>
+          <Logo />
         </button>
         <div>
           {/* <Burguer open={open} setOpen={setOpen} />
