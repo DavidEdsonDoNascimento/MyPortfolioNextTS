@@ -38,14 +38,14 @@ export const Container = styled.nav`
         justify-content: center;
         align-items: center;
         border: none;
-        font-size: 1.3rem;
+        font-size: 1.5rem;
         margin-left: 15px;
         background-color: unset;
-        color: ${props => props.theme.colors.text};
+        color: ${props => props.theme.colors.gray200};
         cursor: pointer;
         transition: all ease-in-out 0.3s;
         :hover {
-          filter: drop-shadow(0 0 3px ${props => props.theme.colors.salmon300});
+          filter: drop-shadow(0 0 3px ${props => props.theme.colors.orange800});
         }
       }
     }

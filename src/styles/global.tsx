@@ -17,7 +17,7 @@ export const GlobalStyle = createGlobalStyle`
     flex-direction: column;
     align-items: center;
     scroll-behavior: smooth;
-    font: 300 1rem 'Work Sans', arial, sans-serif;
+    font: 300 1rem 'Comic Neue', arial, sans-serif;
     body::-webkit-scrollbar {
       width: 10px;
     }
@@ -63,6 +63,6 @@ export const GlobalStyle = createGlobalStyle`
     }
   }
   body, input, textarea, select, button {
-    font: 400 1rem "Roboto", sans-serif;
+    font: 400 1rem 'Comic Neue', sans-serif;
   }
 `;

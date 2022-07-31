@@ -10,7 +10,7 @@ export const Container = styled.header`
   margin-top: 90px;
   background: url('/imgs/men.png') no-repeat center;
   background-size: cover;
-
+  text-shadow: ${props => props.theme.colors.gray200} 5px 0 10px;
   .wrapper {
     width: 1200px;
     height: 100%;

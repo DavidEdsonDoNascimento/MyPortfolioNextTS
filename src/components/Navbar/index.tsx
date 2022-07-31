@@ -1,7 +1,12 @@
 import { Logo } from '@components/Logo';
+import { Menu } from '@shared/Menu';
+import { Burguer } from '@shared/Burguer';
+import { useState } from 'react';
 import { Container } from './styles';
 
 export const Navbar = () => {
+
+  const [open, setOpen] = useState<boolean>(false);
 
   return (
     <Container>
@@ -10,8 +15,8 @@ export const Navbar = () => {
           <Logo />
         </button>
         <div>
-          {/* <Burguer open={open} setOpen={setOpen} />
-          <Menu open={open}/> */}
+          <Burguer open={open} setOpen={setOpen} />
+          <Menu open={open}/>
         </div>
         <div className='menu'>
           <a href='#'
