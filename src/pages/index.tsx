@@ -9,8 +9,8 @@ const Home: NextPage = () => {
     <Container>
       <Head>
         <title>Escultor Digital | JS Dev</title>
-      </Head>     
-      <Navbar /> 
+      </Head>
+      <Navbar />
       <Header />
       <Main />
       <Footer />

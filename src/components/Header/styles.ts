@@ -8,16 +8,16 @@ export const Container = styled.header`
   justify-content: space-evenly;
   font-size: 2.5rem;
   margin-top: 90px;
-  background: url('/imgs/bg-home.png') no-repeat center;
+  background: url('/imgs/men.png') no-repeat center;
   background-size: cover;
-  
+
   .wrapper {
     width: 1200px;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    
+
     @media screen and (max-width: 1215px) {
       width: 100%;
       justify-content: center;
@@ -31,6 +31,7 @@ export const Container = styled.header`
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+      margin-left: auto;
       h3 {
         font-weight: 500;
         font-size: 4rem;
@@ -85,7 +86,7 @@ export const Container = styled.header`
         width: 400px;
         height: 400px;
         filter: drop-shadow(0 0 16px black) brightness(130%);
-      }  
+      }
       @media screen and (max-width: 769px) {
         width: 350px;
         margin-left: 0;

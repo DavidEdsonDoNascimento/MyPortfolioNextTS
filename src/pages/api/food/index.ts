@@ -1,9 +1,9 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
+import { FoodControl } from 'src/types/food';
 import { FoodController } from '../../../controllers/FoodController';
-import { Contract } from '../../../types/food/contract';
 
 type Data = {
-  contract: Contract;
+  contract: FoodControl;
 }
 
 export default function handler(
@@ -15,10 +15,10 @@ export default function handler(
 
   switch (method) {
   case 'GET':
-    res.status(200).json({ contract: FoodController.getContractFood() });
+    res.status(200).json({ contract: FoodController.getFoodTable() });
     break;
   default:
-    res.status(200).json({ contract: FoodController.getContractFood() });
+    res.status(200).json({ contract: FoodController.getFoodTable() });
   }
 
 }
