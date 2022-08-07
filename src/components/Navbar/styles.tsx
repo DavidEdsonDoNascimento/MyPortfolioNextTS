@@ -8,7 +8,7 @@ export const Container = styled.nav`
   justify-content: center;
   position: fixed;
   z-index: 999;
-  background-color: ${props => props.theme.colors.brown850};
+  background-color: ${props => props.theme.colors.blue700};
   backdrop-filter: blur(5px);
   .wrapper {
     max-width: 1200px;
