@@ -22,7 +22,7 @@ export const Container = styled.div`
   div {
     width: 30px;
     height: 3px;
-    background: ${(props) => props.theme.colors.blue700};
+    background: ${(props) => props.theme.colors.white900};
     border-radius: 5px;
     position: relative;
     transform-origin: 0;

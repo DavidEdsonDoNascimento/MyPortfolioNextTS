@@ -5,10 +5,11 @@ export const Container = styled.div`
     font-size: 1.5rem;
     background: none;
     border: none;
+    color: ${props => props.theme.colors.white900};
+    filter: drop-shadow(0 0 3px black) brightness(100%);
     cursor: pointer;
     .logo {
       width: 180px;
-      filter: drop-shadow(0 0 8px black) brightness(100%);
       transition: ease-in-out all 0.5s;
       :hover {
         width: 185px;

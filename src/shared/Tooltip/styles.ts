@@ -8,7 +8,7 @@ export const TooltipCard = styled.div`
   .tooltip-box {
     position: absolute;
     color: #fff;
-    background-color: ${props => props.theme.colors.primary};
+    background-color: ${props => props.theme.colors.blue700};
     width: auto;
     padding: 8px 8px;
     border-radius: 4px;
@@ -22,7 +22,7 @@ export const TooltipCard = styled.div`
     transform: scale(1);
     color: #fff;
     font-weight: 500;
-    background-color: ${props => props.theme.colors.primary};
+    background-color: ${props => props.theme.colors.blue700};
     width: auto;
     padding: 8px 8px;
     border-radius: 4px;

@@ -8,18 +8,18 @@ export const Container = styled.footer`
   align-items: center;
   justify-content: space-evenly;
   font-size: 2.5rem;
-  background-image: linear-gradient(-125deg, ${props => props.theme.colors.brown200}, ${props => props.theme.colors.brown850});
-  
+  background-color: ${props => props.theme.colors.blue700};
+  color: ${props => props.theme.colors.white900};
+
   button {
     background: none;
     border: none;
     cursor: pointer;
-    
+
     .logo {
       width: 250px;
-      filter: drop-shadow(0 0 3px black) brightness(100%);
       transition: all ease-in-out 0.5s;
-  
+
       :hover {
         width: 270px;
         filter: drop-shadow(0 0 5px black) brightness(130%);
