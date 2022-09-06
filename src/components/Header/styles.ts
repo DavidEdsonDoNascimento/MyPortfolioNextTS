@@ -1,3 +1,4 @@
+/* text-shadow: ${props => props.theme.colors.gray200} 5px 0 10px; */
 import styled from 'styled-components';
 
 export const Container = styled.header`
@@ -10,7 +11,6 @@ export const Container = styled.header`
   margin-top: 90px;
   background: url('/imgs/men.png') no-repeat center;
   background-size: cover;
-  text-shadow: ${props => props.theme.colors.gray200} 5px 0 10px;
   .wrapper {
     width: 1200px;
     height: 100%;
@@ -40,7 +40,7 @@ export const Container = styled.header`
         font-weight: 500;
         b {
           font-weight: 700;
-          background: -webkit-linear-gradient(-70deg, ${(props) => props.theme.colors.brown200}, ${(props) => props.theme.colors.brown850});
+          background: -webkit-linear-gradient(-70deg, ${(props) => props.theme.colors.brown200}, ${(props) => props.theme.colors.brown700});
           filter: drop-shadow(0 0 5px black) brightness(135%);
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;

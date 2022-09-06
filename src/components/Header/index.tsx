@@ -12,7 +12,6 @@ export const Header = () => {
             <a href={SocialNetworks.linkedin.link} target="_blank" rel="noreferrer">
               <b> {SocialNetworks.linkedin.name}</b>
             </a>
-            ,
           </span>
           <p>sou Desenvolvedor FullStack JavaScript.</p>
         </div>
