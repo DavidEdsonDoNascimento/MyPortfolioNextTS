@@ -16,6 +16,7 @@ import { FaLaptopCode, FaNode } from 'react-icons/fa';
 import { Tooltip } from 'src/shared/Tooltip';
 import { Container } from './styles';
 import { Content } from '@utils/Contents';
+import { SocialNetworks } from '@utils/SocialNetworks';
 
 export const Habilidade = () => {
   return (
@@ -25,7 +26,7 @@ export const Habilidade = () => {
           <h2><FaLaptopCode />Hard Skills</h2>
           <p>{Content.skills()}</p>
           <div className='buttons'>
-            <a href='https://www.canva.com/design/DADRCM05eGM/RUgPAEphQ8e8ExdYF9YgUg/view?utm_content=DADRCM05eGM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'
+            <a href={SocialNetworks.curriculo.link}
               className='button-link'><IoDocumentTextSharp /> Currículo</a>
           </div>
         </div>

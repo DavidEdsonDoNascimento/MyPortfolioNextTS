@@ -1,4 +1,5 @@
 import { Container } from './styles';
+import { SocialNetworks } from '@utils/SocialNetworks';
 
 interface IProps {
   open?: boolean;
@@ -33,7 +34,7 @@ export const Menu = ({ open }: IProps) => {
           CONTATO
         </span>
       </a>
-      <a href='https://www.canva.com/design/DADRCM05eGM/Fcjk3iP73H8woIPeqCaslg/view?utm_content=DADRCM05eGM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton' target='_blank' rel='noreferrer'>
+      <a href={SocialNetworks.curriculo.link} target='_blank' rel='noreferrer'>
         CURRÍCULO
       </a>
     </Container>
