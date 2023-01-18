@@ -28,7 +28,7 @@ export const Contact = () => {
             <a href="https://www.linkedin.com/in/david-edson-05989a177/"
               target='_blank' rel='noreferrer'>
               <Tooltip item={<RiLinkedinBoxFill />} text="LinkedIn" /></a>
-            <a href="https://www.instagram.com/davidedsonoficial/"
+            <a href="https://www.instagram.com/sorrir_naodoi/"
               target='_blank' rel='noreferrer'>
               <Tooltip item={<RiInstagramFill />} text="Instagram" /></a>
             <a href="mailto:david.contato.tec@gmail.com?subject=Olá gostaria de trocar uma ideia contigo!"
