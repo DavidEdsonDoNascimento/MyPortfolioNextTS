@@ -17,7 +17,7 @@ export const Contact = () => {
         <p>Precisa de um desenvolvedor?<br/>Vamos trabalhar juntos.<br/>Entre em contato:</p>
         <div className='links'>
           <div className='first-group'>
-            <a href="https://wa.me/5547997011323?text=Olá%20David%20Gostaria%20de%20trocar%20uma%20ideia%20contigo!"
+            <a href="https://wa.me/5547997011323?text=Oi%20David%20Gostaria%20de%20trocar%20uma%20ideia%20contigo!"
               target='_blank' rel='noreferrer'>
               <Tooltip item={<RiWhatsappFill />} text="Whatsapp" /></a>
             <a href="https://github.com/DavidEdsonDoNascimento"
@@ -28,7 +28,7 @@ export const Contact = () => {
             <a href="https://www.linkedin.com/in/david-edson-05989a177/"
               target='_blank' rel='noreferrer'>
               <Tooltip item={<RiLinkedinBoxFill />} text="LinkedIn" /></a>
-            <a href="https://www.instagram.com/sorrir_naodoi/"
+            <a href="https://www.instagram.com/#/"
               target='_blank' rel='noreferrer'>
               <Tooltip item={<RiInstagramFill />} text="Instagram" /></a>
             <a href="mailto:david.contato.tec@gmail.com?subject=Olá gostaria de trocar uma ideia contigo!"

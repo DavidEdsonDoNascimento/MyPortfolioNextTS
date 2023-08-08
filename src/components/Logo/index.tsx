@@ -5,7 +5,7 @@ export const Logo = () => {
     <Container>
       <a className="logo" href="#">
         <div className="c-logo-ed">
-          Escultor Digital
+          David Edson
         </div>
         <div className="c-logo-js">
           JS Dev
