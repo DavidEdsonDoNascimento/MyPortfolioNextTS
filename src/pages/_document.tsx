@@ -7,7 +7,7 @@ export default class MyDocument extends Document {
         <Head>
           <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
           <meta name="description" content="Desenvolvedor JavaScript Full Stack sempre buscando por novos desafios e espalhando o conhecimento" />
-          <meta name="keywords" content="Desenvolvedor,Full,Stack,pleno,JavaScript,React,Next,ReactJS,NextJS,Programador,tecnologia,codigos,escultor,digital,clean code,Dev JS,David Edson" />
+          <meta name="keywords" content="Desenvolvedor,Full,Stack,Portifolio,Pleno,JavaScript,React,Next,ReactJS,NextJS,Typescript,Programador,Tecnologia,Codigos,Escultor,Digital,David,Edson,Clean code,Dev JS,David Edson" />
           <meta name="author" content="David Edson Do Nascimento" />
           <meta name="robots" content="index,follow" />
           <meta name="googlebot" content="index,follow" />
