@@ -42,6 +42,17 @@ export const Projects = () => {
                 <MdHttp />
               </div>
             </div>
+            <div className='project'>
+              <h3>Brincadeira com Linkedin</h3>
+              <p>Pagina inicial de Rede social Fanfic corporativa criada para explorar algumas ideias com ReactJS.</p>
+              <a href="https://fanfic-corp.vercel.app/" target='_blank' className='button-link' rel="noreferrer"><FiLink />Website</a>
+              <div className='icons'>
+                <DiReact />
+                <DiHtml5 />
+                <IoLogoJavascript />
+                <MdHttp />
+              </div>
+            </div>
           </div>
         </div>
         <a href="https://github.com/DavidEdsonDoNascimento?tab=repositories" target='_blank' rel="noreferrer" className='more-projects'>Conheça todos os projetos!</a>
