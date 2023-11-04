@@ -15,7 +15,7 @@ export default class MyDocument extends Document {
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
           <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap" rel="stylesheet" />
-          <link rel="shortcut icon" href="/favicon.png" type="image/png" />
+          <link rel="icon" href="/imgs/cafe-icon.png" type="image/png" />
         </Head>
         <body>
           <Main />
