@@ -32,6 +32,8 @@ export const Container = styled.header`
       flex-direction: column;
       justify-content: space-between;
       margin-left: auto;
+      text-shadow: 0px 1px #EA5514;
+
       h3 {
         font-weight: 500;
         font-size: 4rem;

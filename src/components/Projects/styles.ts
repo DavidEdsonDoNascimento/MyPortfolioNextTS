@@ -33,6 +33,7 @@ export const Container = styled.div`
       text-align: center;
       font-size: 2.5rem;
       margin-bottom: 30px;
+      margin-top: 30px;
 
       svg {
         color: ${props => props.theme.colors.secondary};
@@ -96,10 +97,11 @@ export const Container = styled.div`
           flex-direction: column;
           align-items: center;
           justify-content: space-between;
-          border: solid 3px;
+          border: solid 1px #fff;
           border-image: linear-gradient(45deg, ${props => props.theme.colors.secondary}, ${props => props.theme.colors.primary}) 1;
-          padding: 30px 15px;
+          padding: 1.25rem;
           padding-bottom: 0;
+          margin-bottom: 10px;
           transition: ease-in-out all 0.5s ;
 
           :hover {
