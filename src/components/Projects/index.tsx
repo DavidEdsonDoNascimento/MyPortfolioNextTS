@@ -9,8 +9,8 @@ import { Container } from './styles';
 
 export const Projects = () => {
   return (
-    <Container id='projetos'>
-      <div className='wrapper'>
+    <Container>
+      <div id='projetos' className='wrapper'>
         <h2><IoRocket />Projetos</h2>
         <div className='projects-group'>
           <div className='projects-list'>
