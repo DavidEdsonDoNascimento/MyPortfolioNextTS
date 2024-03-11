@@ -33,7 +33,7 @@ export const Projects = () => {
             <div className='project'>
               <h3>Controle De Finanças Pessoais</h3>
               <p>Controle básico de finanças pessoais.</p>
-              <a href="https://github.com/AndeCardoso/fcamara-agenda" target='_blank' className='button-link' rel="noreferrer"><DiGitBranch />Repositório</a>
+              <a href="https://github.com/DavidEdsonDoNascimento/FinancesRocketseatReactTS" target='_blank' className='button-link' rel="noreferrer"><DiGitBranch />Repositório</a>
               <div className='icons'>
                 <DiReact />
                 <DiHtml5 />
