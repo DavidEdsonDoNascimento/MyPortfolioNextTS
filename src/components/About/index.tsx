@@ -5,8 +5,8 @@ import { Container } from './styles';
 
 export const About = () => {
   return (
-    <Container id='sobre'>
-      <div className='wrapper'>
+    <Container>
+      <div id='sobre' className='wrapper'>
         <div className='content'>
           <h2>Sobre</h2>
           <p>{Content.about()}</p>

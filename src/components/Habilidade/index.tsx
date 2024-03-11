@@ -20,8 +20,8 @@ import { SocialNetworks } from '@utils/SocialNetworks';
 
 export const Habilidade = () => {
   return (
-    <Container id='skills'>
-      <div className='wrapper'>
+    <Container>
+      <div id='skills' className='wrapper'>
         <div className='content'>
           <h2><FaLaptopCode />Hard Skills</h2>
           <p>{Content.skills()}</p>

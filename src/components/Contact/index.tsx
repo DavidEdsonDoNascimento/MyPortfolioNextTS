@@ -11,8 +11,8 @@ import { Container } from './styles';
 
 export const Contact = () => {
   return (
-    <Container id='contato'>
-      <div className='wrapper'>
+    <Container>
+      <div id='contato' className='wrapper'>
         <h2><RiWechatFill />Contato</h2>
         <p>Precisa de um desenvolvedor?<br/>Vamos trabalhar juntos.<br/>Entre em contato:</p>
         <div className='links'>
