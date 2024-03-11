@@ -17,7 +17,7 @@ export const Footer = () => {
         <span>Copyright © {year}</span>
         <p>Todos os direitos reservados.</p>
         <span className='made-by'>
-          <p>Desenvolvido por</p>
+          <p>Desenvolvido por:</p>
           <a href={SocialNetworks.linkedin.link} target="_blank" rel="noreferrer" className='name'> {SocialNetworks.linkedin.name} </a>
           <p>utilizando <a href="https://nextjs.org//" target="_blank" rel="noreferrer">Next JS</a></p>
         </span>
