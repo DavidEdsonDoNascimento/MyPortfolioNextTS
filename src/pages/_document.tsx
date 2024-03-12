@@ -13,7 +13,7 @@ export default class MyDocument extends Document {
           <meta name="googlebot" content="index,follow" />
           <meta name="google-site-verification" content="L0i7sSgRS1zSznXxWIvQhirCMFyInbVW8xCzFTofnNY" />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
+          <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap" rel="stylesheet" />
           <link rel="icon" href="/imgs/cafe-icon.png" type="image/png" />
         </Head>
