@@ -19,18 +19,20 @@ export const Container = styled.div`
     align-items: center;
     .bg-perfil {
       width: 40%;
-      padding: 10px;
       border-radius: 50%;
       background-color: ${props => props.theme.colors.blue700};
       transition: all 0.5s ease-in-out;
+      display: flex;
+      align-items: center;
+      justify-content: center;
 
       .img-about {
+        padding: 5px;
         border-radius: 50%;
-      }
-
-      :hover {
-        width: 40%;
-        filter: grayscale(30%) drop-shadow(0 0 10px black);
+        max-width: 22rem;
+        max-height: 22rem;
+        width: auto;
+        height: auto;
       }
     }
     .content {
