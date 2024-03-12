@@ -53,6 +53,17 @@ export const Projects = () => {
                 <MdHttp />
               </div>
             </div>
+            <div className='project'>
+              <h3>Jogo da cobrinha</h3>
+              <p>Jogo da cobrinha classico feito com Javascript.</p>
+              <a href="https://github.com/DavidEdsonDoNascimento/SnakeGameJS" target='_blank' className='button-link' rel="noreferrer"><FiLink />Repositório</a>
+              <div className='icons'>
+                <DiReact />
+                <DiHtml5 />
+                <IoLogoJavascript />
+                <MdHttp />
+              </div>
+            </div>
           </div>
         </div>
         <a href="https://github.com/DavidEdsonDoNascimento?tab=repositories" target='_blank' rel="noreferrer" className='more-projects'>Conheça todos os projetos!</a>
