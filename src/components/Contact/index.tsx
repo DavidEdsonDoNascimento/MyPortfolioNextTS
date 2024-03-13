@@ -28,10 +28,10 @@ export const Contact = () => {
             <a href="https://www.linkedin.com/in/david-edson-05989a177/"
               target='_blank' rel='noreferrer'>
               <Tooltip item={<RiLinkedinBoxFill />} text="LinkedIn" /></a>
-            <a href="https://www.instagram.com/davidedsonnn"
+            <a href="https://www.instagram.com/n.davidedson"
               target='_blank' rel='noreferrer'>
               <Tooltip item={<RiInstagramFill />} text="Instagram" /></a>
-            <a href="mailto:david.contato.tec@gmail.com?subject=Olá gostaria de trocar uma ideia contigo!"
+            <a href="mailto:david.contato.tec@gmail.com?subject=Oi David, vi seu portifólio e gostaria de bater um papo contigo!"
               target='_blank' rel='noreferrer'>
               <Tooltip item={<RiMailFill />} text="E-mail" /></a>
           </div>
