@@ -104,11 +104,6 @@ export const Container = styled.div`
           margin-bottom: 10px;
           transition: ease-in-out all 0.5s ;
 
-          :hover {
-            width: 50%;
-            height: 265px;
-          }
-
           h3 {
             font-size: 2rem;
             margin-bottom: 15px;
