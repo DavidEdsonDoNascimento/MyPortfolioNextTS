@@ -10,7 +10,7 @@ export const Container = styled.div`
   background-color: ${theme.colors.blue700};
   color: ${theme.colors.white900};
   @media screen and (max-width: 750px) {
-    padding: 100px 0;
+    padding: 80px 0;
   }
   .wrapper {
     width: 1200px;
@@ -18,23 +18,11 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;
     .bg-perfil {
-      width: 40%;
-      border-radius: 50%;
-      background-color: ${props => props.theme.colors.blue700};
-      transition: all 0.5s ease-in-out;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-
-      .img-about {
-        padding: 5px;
-        border-radius: 50%;
-        max-width: 22rem;
-        max-height: 22rem;
-        width: auto;
-        height: auto;
+      iframe {
+        padding: 15px;
       }
     }
+
     .content {
       width: 60%;
       h2 {
@@ -72,7 +60,7 @@ export const Container = styled.div`
     @media screen and (max-width: 750px) {
       flex-direction: column;
       .bg-perfil {
-        display: none;
+        margin-top: 40px;
       }
       .content {
         width: 100%;
