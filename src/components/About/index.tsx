@@ -1,6 +1,5 @@
 import { Content } from '@utils/Contents';
 import { SocialNetworks } from '@utils/SocialNetworks';
-import Image from 'next/image';
 import { Container } from './styles';
 
 export const About = () => {
