@@ -10,8 +10,12 @@ export const About = () => {
           <h2>Sobre</h2>
           <p>{Content.about()}</p>
           <div className='buttons'>
-            <a href={SocialNetworks.linkedin.link} className='button-link'>LinkedIn</a>
-            <a href={SocialNetworks.github.link} className='button-link'>Github</a>
+            <a href={SocialNetworks.linkedin.link} className='button-link'>
+              LinkedIn
+            </a>
+            <a href={SocialNetworks.github.link} className='button-link'>
+              Github
+            </a>
           </div>
         </div>
         <div className='bg-perfil'>
@@ -24,7 +28,7 @@ export const About = () => {
             allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
             referrerPolicy='strict-origin-when-cross-origin'
             allowFullScreen
-            ></iframe>
+          ></iframe>
         </div>
       </div>
     </Container>
