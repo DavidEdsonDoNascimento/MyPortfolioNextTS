@@ -19,8 +19,8 @@ export const Container = styled.div`
     align-items: center;
     .bg-perfil {
       iframe {
-        width: 375px;
-        height: 210px;
+        width: 350px;
+        height: 196px;
       }
     }
 
@@ -64,8 +64,8 @@ export const Container = styled.div`
         margin-top: 40px;
 
         iframe {
-          width: 375px;
-          height: 210px;
+          width: 350px;
+          height: 196px;
         }
       }
       .content {
