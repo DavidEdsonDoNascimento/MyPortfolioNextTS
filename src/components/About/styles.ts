@@ -19,7 +19,8 @@ export const Container = styled.div`
     align-items: center;
     .bg-perfil {
       iframe {
-        padding: 15px;
+        width: 375px;
+        height: 210px;
       }
     }
 
@@ -61,6 +62,11 @@ export const Container = styled.div`
       flex-direction: column;
       .bg-perfil {
         margin-top: 40px;
+
+        iframe {
+          width: 375px;
+          height: 210px;
+        }
       }
       .content {
         width: 100%;
