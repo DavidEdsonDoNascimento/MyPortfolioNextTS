@@ -31,9 +31,14 @@ export const Projects = () => {
               </div>
             </div>
             <div className='project'>
-              <h3>Controle De Finanças Pessoais</h3>
-              <p>Controle básico de finanças pessoais.</p>
-              <a href="https://github.com/DavidEdsonDoNascimento/FinancesRocketseatReactTS" target='_blank' className='button-link' rel="noreferrer"><DiGitBranch />Repositório</a>
+              <h3>Autoatendimento</h3>
+              <p>Autoatendimento de um restaurante.</p>
+              <a
+                href="https://autoatendimento.vercel.app/"
+                target='_blank'
+                className='button-link'
+                rel="noreferrer"
+              ><FiLink />Website</a>
               <div className='icons'>
                 <DiReact />
                 <DiHtml5 />
@@ -43,9 +48,14 @@ export const Projects = () => {
               </div>
             </div>
             <div className='project'>
-              <h3>Brincadeira com Linkedin</h3>
-              <p>Pagina inicial de Rede social Fanfic corporativa criada para explorar algumas ideias com ReactJS.</p>
-              <a href="https://fanfic-corp.vercel.app/" target='_blank' className='button-link' rel="noreferrer"><FiLink />Website</a>
+              <h3>Mercearia</h3>
+              <p>Controle básico de finanças de uma padaria.</p>
+              <a
+                href="https://bakery-sample-js-pure.vercel.app/"
+                target='_blank'
+                className='button-link'
+                rel="noreferrer"
+              ><FiLink />Website</a>
               <div className='icons'>
                 <DiReact />
                 <DiHtml5 />
@@ -54,9 +64,9 @@ export const Projects = () => {
               </div>
             </div>
             <div className='project'>
-              <h3>Jogo da cobrinha</h3>
-              <p>Jogo da cobrinha classico feito com Javascript.</p>
-              <a href="https://github.com/DavidEdsonDoNascimento/SnakeGameJS" target='_blank' className='button-link' rel="noreferrer"><FiLink />Repositório</a>
+              <h3>Brincadeira com Linkedin</h3>
+              <p>Pagina inicial de Rede social Fanfic corporativa criada para explorar algumas ideias com ReactJS.</p>
+              <a href="https://fanfic-corp.vercel.app/" target='_blank' className='button-link' rel="noreferrer"><FiLink />Website</a>
               <div className='icons'>
                 <DiReact />
                 <DiHtml5 />
