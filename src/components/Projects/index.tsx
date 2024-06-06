@@ -1,6 +1,6 @@
 import { IoRocket } from 'react-icons/io5';
 import { FiLink } from 'react-icons/fi';
-import { DiHtml5, DiReact, DiGitBranch, DiWordpress } from 'react-icons/di';
+import { DiHtml5, DiReact, DiWordpress } from 'react-icons/di';
 import { SiStyledcomponents } from 'react-icons/si';
 import { IoLogoJavascript } from 'react-icons/io';
 import { MdHttp } from 'react-icons/md';
