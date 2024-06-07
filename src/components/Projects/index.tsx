@@ -1,7 +1,6 @@
 import { IoRocket } from 'react-icons/io5';
 import { FiLink } from 'react-icons/fi';
-import { DiHtml5, DiReact, DiWordpress } from 'react-icons/di';
-import { SiStyledcomponents } from 'react-icons/si';
+import { DiCss3, DiHtml5, DiWordpress } from 'react-icons/di';
 import { IoLogoJavascript } from 'react-icons/io';
 import { MdHttp } from 'react-icons/md';
 
@@ -40,11 +39,9 @@ export const Projects = () => {
                 rel="noreferrer"
               ><FiLink />Website</a>
               <div className='icons'>
-                <DiReact />
                 <DiHtml5 />
-                <SiStyledcomponents />
                 <IoLogoJavascript />
-                <MdHttp />
+                <DiCss3 />
               </div>
             </div>
             <div className='project'>
@@ -57,21 +54,19 @@ export const Projects = () => {
                 rel="noreferrer"
               ><FiLink />Website</a>
               <div className='icons'>
-                <DiReact />
                 <DiHtml5 />
                 <IoLogoJavascript />
-                <MdHttp />
+                <DiCss3 />
               </div>
             </div>
             <div className='project'>
-              <h3>Brincadeira com Linkedin</h3>
-              <p>Pagina inicial de Rede social Fanfic corporativa criada para explorar algumas ideias com ReactJS.</p>
-              <a href="https://fanfic-corp.vercel.app/" target='_blank' className='button-link' rel="noreferrer"><FiLink />Website</a>
+              <h3>Jogo do Mario</h3>
+              <p>Jogo feito em javascript puro </p>
+              <a href="https://mario-jump-iota.vercel.app/" target='_blank' className='button-link' rel="noreferrer"><FiLink />Website</a>
               <div className='icons'>
-                <DiReact />
                 <DiHtml5 />
                 <IoLogoJavascript />
-                <MdHttp />
+                <DiCss3 />
               </div>
             </div>
           </div>
