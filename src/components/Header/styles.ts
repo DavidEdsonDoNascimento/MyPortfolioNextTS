@@ -11,6 +11,11 @@ export const Container = styled.header`
   margin-top: 90px;
   background: url('/imgs/men.png') no-repeat center;
   background-size: cover;
+
+  @media screen and (max-width: 820px) {
+    align-items: baseline;
+  }
+
   .wrapper {
     width: 1200px;
     height: 100%;
@@ -25,6 +30,7 @@ export const Container = styled.header`
     }
     @media screen and (max-width: 750px) {
       flex-direction: column;
+      margin-left: 50vw;
     }
     div {
       min-height: 180px;
