@@ -1,10 +1,11 @@
 import { IoRocket } from 'react-icons/io5';
 import { FiLink } from 'react-icons/fi';
-import { DiCss3, DiHtml5, DiWordpress } from 'react-icons/di';
+import { DiCss3, DiGitBranch, DiHtml5, DiNodejs, DiWordpress } from 'react-icons/di';
 import { IoLogoJavascript } from 'react-icons/io';
 import { MdHttp } from 'react-icons/md';
 
 import { Container } from './styles';
+import { SiPrisma, SiTypescript } from 'react-icons/si';
 
 export const Projects = () => {
   return (
@@ -30,33 +31,35 @@ export const Projects = () => {
               </div>
             </div>
             <div className='project'>
-              <h3>Autoatendimento</h3>
-              <p>Autoatendimento de um restaurante.</p>
+              <h3>API RestFull SOLID</h3>
+              <p>Uma API RestFull contém princípios SOLID, aproveitando o uso de padrões de projetos relevantes.</p>
               <a
-                href="https://autoatendimento.vercel.app/"
+                href="https://github.com/DavidEdsonDoNascimento/solid-api"
                 target='_blank'
                 className='button-link'
                 rel="noreferrer"
-              ><FiLink />Website</a>
+              ><DiGitBranch />Repositório</a>
               <div className='icons'>
-                <DiHtml5 />
+                <DiNodejs />
+                <SiTypescript />
                 <IoLogoJavascript />
-                <DiCss3 />
+                <SiPrisma />
               </div>
             </div>
             <div className='project'>
-              <h3>Mercearia</h3>
-              <p>Controle básico de finanças de uma padaria.</p>
+              <h3>Golden Raspberry Awards API</h3>
+              <p>Um desafio técnico recente, API RESTful que trabalha com uma lista de indicados e vencedores da categoria Pior Filme do Golden Raspberry Awards em formato CSV.</p>
               <a
-                href="https://bakery-sample-js-pure.vercel.app/"
+                href="https://github.com/DavidEdsonDoNascimento/golden-raspberry-awards-api"
                 target='_blank'
                 className='button-link'
                 rel="noreferrer"
-              ><FiLink />Website</a>
+              ><DiGitBranch />Repositório</a>
               <div className='icons'>
-                <DiHtml5 />
+                <DiNodejs />
+                <SiTypescript />
                 <IoLogoJavascript />
-                <DiCss3 />
+                <SiPrisma />
               </div>
             </div>
             <div className='project'>
