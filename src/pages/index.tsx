@@ -4,7 +4,6 @@ import { Container } from '../styles/pages/Home';
 import { Header, Main, Footer, Navbar } from '@components/index';
 
 const Home: NextPage = () => {
-
   return (
     <Container>
       <Head>
