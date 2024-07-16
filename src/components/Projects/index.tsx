@@ -6,7 +6,6 @@ import {
   DiHtml5,
   DiNodejs,
   DiReact,
-  DiWordpress,
 } from 'react-icons/di';
 import { IoLogoJavascript } from 'react-icons/io';
 import { MdHttp } from 'react-icons/md';
