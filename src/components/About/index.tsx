@@ -13,12 +13,14 @@ export const About = () => {
             <a
               href={SocialNetworks.linkedin.link}
               target="_blank"
+              rel="noopener noreferrer"
               className="button-link"
             >
               LinkedIn
             </a>
             <a
               href={SocialNetworks.github.link}
+              rel="noopener noreferrer"
               target="_blank"
               className="button-link"
             >
