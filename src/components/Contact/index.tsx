@@ -7,9 +7,12 @@ import {
   RiMailFill,
   RiGithubFill,
 } from 'react-icons/ri';
+import { SocialNetworks } from '@utils/SocialNetworks';
 import { Container } from './styles';
 
 export const Contact = () => {
+  const emailLink = `mailto:${SocialNetworks.email.link}?subject=Oi%20David%20vi%20seu%20portfólio%20e%20gostaria%20de%20bater%20um%20papo%20contigo!`;
+
   return (
     <Container>
       <div id="contato" className="wrapper">
@@ -27,14 +30,14 @@ export const Contact = () => {
         <div className="links">
           <div className="first-group">
             <a
-              href="https://wa.me/5547997011323?text=Oi%20David%20vi%20seu%20portfólio%20e%20gostaria%20de%20bater%20um%20papo%20contigo!"
+              href={SocialNetworks.whatsapp.link}
               target="_blank"
               rel="noreferrer"
             >
               <Tooltip item={<RiWhatsappFill />} text="Whatsapp" />
             </a>
             <a
-              href="https://github.com/DavidEdsonDoNascimento"
+              href={SocialNetworks.github.link}
               target="_blank"
               rel="noreferrer"
             >
@@ -43,24 +46,20 @@ export const Contact = () => {
           </div>
           <div className="second-group">
             <a
-              href="https://www.linkedin.com/in/david-nascimento-05989a177/"
+              href={SocialNetworks.linkedin.link}
               target="_blank"
               rel="noreferrer"
             >
               <Tooltip item={<RiLinkedinBoxFill />} text="LinkedIn" />
             </a>
             <a
-              href="https://www.instagram.com/davidedsonnn"
+              href={SocialNetworks.instagram.link}
               target="_blank"
               rel="noreferrer"
             >
               <Tooltip item={<RiInstagramFill />} text="Instagram" />
             </a>
-            <a
-              href="mailto:david.contato.tec@gmail.com?subject=Oi%20David%20vi%20seu%20portfólio%20e%20gostaria%20de%20bater%20um%20papo%20contigo!"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href={emailLink} target="_blank" rel="noreferrer">
               <Tooltip item={<RiMailFill />} text="E-mail" />
             </a>
           </div>
