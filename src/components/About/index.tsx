@@ -10,10 +10,18 @@ export const About = () => {
           <h2>Sobre</h2>
           <p>{Content.about()}</p>
           <div className="buttons">
-            <a href={SocialNetworks.linkedin.link} className="button-link">
+            <a
+              href={SocialNetworks.linkedin.link}
+              target="_blank"
+              className="button-link"
+            >
               LinkedIn
             </a>
-            <a href={SocialNetworks.github.link} className="button-link">
+            <a
+              href={SocialNetworks.github.link}
+              target="_blank"
+              className="button-link"
+            >
               Github
             </a>
           </div>
