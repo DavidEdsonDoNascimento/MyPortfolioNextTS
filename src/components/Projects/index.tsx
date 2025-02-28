@@ -1,17 +1,12 @@
 import { IoRocket } from 'react-icons/io5';
 import { FiLink } from 'react-icons/fi';
-import {
-  DiCss3,
-  DiGitBranch,
-  DiHtml5,
-  DiNodejs,
-  DiReact,
-} from 'react-icons/di';
+import { DiGitBranch, DiHtml5, DiNodejs, DiReact } from 'react-icons/di';
 import { IoLogoJavascript } from 'react-icons/io';
 import { MdHttp } from 'react-icons/md';
 
 import { Container } from './styles';
 import { SiPrisma, SiTypescript } from 'react-icons/si';
+import { RiNextjsFill } from 'react-icons/ri';
 
 export const Projects = () => {
   return (
@@ -91,10 +86,10 @@ export const Projects = () => {
               </div>
             </div>
             <div className="project">
-              <h3>Jogo do Mario</h3>
-              <p>Jogo feito em javascript puro </p>
+              <h3>Autoatendimento</h3>
+              <p>Autoatendimento de restaurantes</p>
               <a
-                href="https://mario-jump-iota.vercel.app/"
+                href="https://autoatendimento.vercel.app"
                 target="_blank"
                 className="button-link"
                 rel="noreferrer"
@@ -103,9 +98,10 @@ export const Projects = () => {
                 Website
               </a>
               <div className="icons">
+                <RiNextjsFill />
                 <DiHtml5 />
                 <IoLogoJavascript />
-                <DiCss3 />
+                <MdHttp />
               </div>
             </div>
           </div>
