@@ -46,25 +46,25 @@ export const Projects = () => {
               </div>
             </div>
             <div className="project">
-              <h3>API RestFull SOLID</h3>
+              <h3>Timer de tarefas</h3>
               <p>
-                Uma API RestFull contém princípios SOLID, aproveitando o uso de
-                padrões de projetos relevantes.
+                Projeto que visa ser um temporizador de tarefas, desenvolvi um
+                histórico para auxiliar em quanto tempo leva-se em cada tarefa
               </p>
               <a
-                href="https://github.com/DavidEdsonDoNascimento/solid-api"
+                href="https://timer-with-history.vercel.app"
                 target="_blank"
                 className="button-link"
                 rel="noreferrer"
               >
-                <DiGitBranch />
-                Repositório
+                <FiLink />
+                Website
               </a>
               <div className="icons">
-                <DiNodejs />
-                <SiTypescript />
+                <DiReact />
+                <DiHtml5 />
                 <IoLogoJavascript />
-                <SiPrisma />
+                <MdHttp />
               </div>
             </div>
             <div className="project">
