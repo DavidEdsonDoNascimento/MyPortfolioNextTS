@@ -1,11 +1,10 @@
 import { IoRocket } from 'react-icons/io5';
 import { FiLink } from 'react-icons/fi';
-import { DiGitBranch, DiHtml5, DiNodejs, DiReact } from 'react-icons/di';
+import { DiHtml5, DiReact } from 'react-icons/di';
 import { IoLogoJavascript } from 'react-icons/io';
 import { MdHttp } from 'react-icons/md';
 
 import { Container } from './styles';
-import { SiPrisma, SiTypescript } from 'react-icons/si';
 import { RiNextjsFill } from 'react-icons/ri';
 
 export const Projects = () => {
@@ -63,26 +62,24 @@ export const Projects = () => {
               </div>
             </div>
             <div className="project">
-              <h3>Golden Raspberry Awards API</h3>
+              <h3>Escolha sua energia</h3>
               <p>
-                Um desafio técnico recente, API RESTful que trabalha com uma
-                lista de indicados e vencedores da categoria Pior Filme do
-                Golden Raspberry Awards em formato CSV.
+                Um desafio técnico recente, uma SPA de escolha de fornecedor de energia.
               </p>
               <a
-                href="https://github.com/DavidEdsonDoNascimento/golden-raspberry-awards-api"
+                href="https://escolha-sua-energia.vercel.app"
                 target="_blank"
                 className="button-link"
                 rel="noreferrer"
               >
-                <DiGitBranch />
-                Repositório
+                <FiLink />
+                Website
               </a>
               <div className="icons">
-                <DiNodejs />
-                <SiTypescript />
+                <DiReact />
+                <DiHtml5 />
                 <IoLogoJavascript />
-                <SiPrisma />
+                <MdHttp />
               </div>
             </div>
             <div className="project">
